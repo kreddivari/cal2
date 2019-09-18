@@ -7,7 +7,7 @@ pipeline {
      
           stage("Package") {
                steps {
-                    sh "sudo chmod +x ./gradlew build"
+                    sh "./gradlew build"
                }
           }
 
